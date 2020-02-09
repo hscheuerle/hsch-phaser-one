@@ -7,6 +7,14 @@ const phaser_game_config = {
   parent: 'app',
   pixelArt: true,
   scene: [ MainScene ],
+  physics: {
+        default: 'arcade',
+        arcade: {
+            gravity: { y: 300 },
+            debug: true,
+            fps: 60,
+        }
+    },
 }
 
 export class PhaserGame extends Phaser.Game {
