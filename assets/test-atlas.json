@@ -1,22 +1,29 @@
 {
-  "filename": "platform",
-  "frame": {
-    "x": 0,
-    "y": 0,
-    "w": 100,
-    "h": 30
-  },
-  "frames": 1,
-  "rotated": false,
-  "trimmed": false,
-  "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 256,
-    "h": 192
-  },
-  "sourceSize": {
-    "w": 256,
-    "h": 192
-  }
+  "frames": [
+    {
+      "filename": "platform",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 30
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ]
 }
