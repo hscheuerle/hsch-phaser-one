@@ -62,11 +62,11 @@ export class MainScene extends Phaser.Scene {
     this.adventurer.play('adventurer-standing');
 
     /* setup dungeon platforms */
-    // this.platforms = this.physics.add.staticGroup();
-    this.add.image(100, 100, 'dungeon', 'platform');
+    this.platforms = this.physics.add.staticGroup();
+    this.platforms.create(100, 500, 'dungeon', 'platform');
 
     /* set collisions */
-    // this.physics.add.collider(this.adventurer, this.platforms);
+    this.physics.add.collider(this.adventurer, this.platforms);
   }
 
   update(timer, delta) {

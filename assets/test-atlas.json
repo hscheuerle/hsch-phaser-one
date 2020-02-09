@@ -3,21 +3,21 @@
     {
       "filename": "platform",
       "frame": {
-        "x": 0,
+        "x": 65,
         "y": 0,
-        "w": 100,
+        "w": 190,
         "h": 30
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
-        "x": 0,
+        "x": 65,
         "y": 0,
-        "w": 100,
+        "w": 190,
         "h": 30
       },
       "sourceSize": {
-        "w": 100,
+        "w": 190,
         "h": 30
       },
       "pivot": {
