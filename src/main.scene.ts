@@ -1,6 +1,7 @@
 // generate name frames?
 import * as Phaser from 'phaser';
 import { adventurer_src, dungeon_src } from '../assets';
+import atlas from '../assets/test-atlas.json';
 
 export class MainScene extends Phaser.Scene {
   adventurer: Phaser.Physics.Arcade.Sprite;
@@ -15,7 +16,7 @@ export class MainScene extends Phaser.Scene {
 
   preload() {
     this.load.spritesheet('adventurer-sprite', adventurer_src, { frameWidth: 50, frameHeight: 37 });
-    // this.load.atlas('dungeon', dungeon_src, 'assets/test-atlas.json'); // todo: export url next to src url
+    this.load.atlas('dungeon', dungeon_src, atlas); // todo: export url next to src url
   }
 
   create() {
@@ -62,7 +63,7 @@ export class MainScene extends Phaser.Scene {
 
     /* setup dungeon platforms */
     // this.platforms = this.physics.add.staticGroup();
-    // this.add.image(100, 100, 'dungeon', 'platform');
+    this.add.image(100, 100, 'dungeon', 'platform');
 
     /* set collisions */
     // this.physics.add.collider(this.adventurer, this.platforms);

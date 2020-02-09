@@ -6,6 +6,7 @@
     "w": 100,
     "h": 30
   },
+  "frames": 1,
   "rotated":false,
   "trimmed":false,
   "spriteSourceSize":{  
