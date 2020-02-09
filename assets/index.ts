@@ -1,0 +1,1 @@
+export const adventurer_src = 'https://cdn.jsdelivr.net/gh/hscheuerle/hsch-phaser-one@master/assets/adventurer-Sheet.png';
