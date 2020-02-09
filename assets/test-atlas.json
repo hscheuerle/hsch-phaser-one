@@ -1,0 +1,29 @@
+{
+  "frames": [
+    {
+      "filename": "platform",
+      "frame": {
+        "x": 65,
+        "y": 0,
+        "w": 190,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 65,
+        "y": 0,
+        "w": 190,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 30
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ]
+}
