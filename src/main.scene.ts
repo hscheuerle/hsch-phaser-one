@@ -1,4 +1,3 @@
-// generate name frames?
 import * as Phaser from 'phaser';
 import { adventurer_src, dungeon_src } from '../assets';
 import atlas from '../assets/test-atlas.json';
