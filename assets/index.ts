@@ -1,1 +1,2 @@
 export const adventurer_src = 'https://cdn.jsdelivr.net/gh/hscheuerle/hsch-phaser-one@master/assets/adventurer-Sheet.png';
+export const dungeon_src = 'https://cdn.jsdelivr.net/gh/hscheuerle/hsch-phaser-one@init/sprite-data-manager/assets/dungeon_tileset_puo/dungeon.png';

@@ -1,0 +1,21 @@
+{
+  "filename": "platform",
+  "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 100,
+    "h": 30
+  },
+  "rotated":false,
+  "trimmed":false,
+  "spriteSourceSize":{  
+    "x":0,
+    "y":0,
+    "w":256,
+    "h":192
+  },
+  "sourceSize":{  
+    "w":256,
+    "h":192
+  }
+}
